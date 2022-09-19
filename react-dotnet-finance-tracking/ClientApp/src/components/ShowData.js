@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-export const Counter = () => {
+﻿import React, { Component, useState } from 'react';
+export const ShowData = () => {
     const [data, setData] = useState([]);
     const [status, setStatus] = useState(false);
     const getData = async () => {
